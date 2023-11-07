@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            background-image: url(./images/white-2484120_1280.png);
+            background-repeat: no-repeat;
+
+
+        }
+
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            min-height: 400px;
+            background-color: transparent;
+            width: 80%;
+            margin: auto;  
+        }
+
+        .banner{
+
+            display:flex;
+            flex-direction: column;
+            min-height: 100px;
+            background-color: lightgrey;
+            justify-items: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            color: black;
+            
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+        }
+
+        .navigation{
+
+            display:flex;
+            flex-direction: row;
+            min-height: 20px;
+            background-color: rgb(34, 178, 197);
+            justify-items: center;
+            align-items: center;
+            margin-top: 10px;
+            justify-content: space-between;
+
+        }
+
+        .main {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sidebar {
+
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(87, 76, 105);
+            flex-basis: 20%;
+            /* min-height: 10px; */
+            margin-top: 10px;
+            font-size: 50px;
+            color: beige;
+        }
+
+        .body {
+
+            display:flex;
+            flex-direction: row;
+            background-color: rgb(233, 202, 233);
+            flex-basis: 75%;
+            margin-top: 10px;
+
+        }
+
+        .footer {
+
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(34, 178, 197);
+            margin-top: 10px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .body > p {
+            order: 1;
+            /* flex-grow: 1;
+            margin-right: 70px; */
+        }
+
+        .body > img {
+            order: 2;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="blue.jpg" alt="">
+            <div class="centered">My Blog</div>
+        </div>
+        <div class="navigation">
+            <a href="https://www.uthm.edu.my/ms">My Campus</a>
+            <a href="file:///C:/Users/Admin/Downloads/Lab_2/biodata.html">About Me</a>
+            <a href="file:///C:/Users/Admin/Downloads/my%20hobby/hobby.html">Hobby</a>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+            University Tun Hussien Onn Malaysia (UTHM)
+            </div>
+            <div class="body">
+                I am an introverted individual who has pursued my studies at UTHM, which demonstrates my commitment to education and self-improvement. My choice of academic institution indicates that my value knowledge and academic growth. Despite being introverted, I also have a sociable side, as I enjoy spending quality time with my housemates and friends. This implies that I have built strong interpersonal relationships and appreciate the importance of social connections in my life. </p>
+                <p>My love for going on vacations with my housemates reveals a desire for shared experiences and creating lasting memories. These trips likely provide me with the opportunity to break away from my daily routine and explore new places, allowing me to unwind and broaden my horizons. My choice to spend time with friends underscores the significance of maintaining a social support system that can offer emotional well-being and companionship.</p>
+                    <p>Overall, I appear to be a well-rounded individual who values both personal growth and social connections. My balance between introversion and sociability suggests that I have a diverse and fulfilling life, where I can immerse myself in my studies and, at the same time, enjoy the company of those close to me during vacations and social gatherings. This combination of personal and social development makes me a unique and admirable individual.
+                    </p>
+                <p><style>
+                    table, th, td {
+                        border: 1px solid black ;    }
+                </style> </p>                   
+                <img src="./images/Flag_of_Palestine.svg.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            &copy Nur Hidayah binti Afri
+        </div>
+    </div>
+</body>
+</html>
